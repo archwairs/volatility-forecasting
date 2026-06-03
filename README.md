@@ -7,7 +7,3 @@ Forecasts daily volatility of HDFC Bank stock using a GARCH(1,1) model.
 - Computes daily percentage returns
 - Fits a GARCH(1,1) model to capture volatility clustering
 - Compares fitted vs realized volatility and evaluates using MSE
-
-## Run
-pip install yfinance arch scikit-learn matplotlib
-python garch_model.py
